@@ -11,3 +11,6 @@ class Person:
 
     def get_age(self):
         return self.age
+ 
+    def say_hello(self):
+        print(f'Hello {self.name}')
